@@ -1141,7 +1141,7 @@ PORTFOLIO BLOCK*/
     position: absolute;
     width: 430px;
     height: 300px;
-    border: 1px solid crimson;
+    border: 1px solid #333;
     display: table;
     transition: all 0.5s;
     z-index: 1
