@@ -154,7 +154,7 @@ a:not([href]):not([tabindex]) {
 
 -------------------------------------------------------------------*/
 
-.preloader {
+/* .preloader {
     position: fixed;
     left: 0;
     top: 0;
@@ -164,9 +164,9 @@ a:not([href]):not([tabindex]) {
     height: 100%;
     z-index: 999999;
     background: transparent;
-}
+} */
 
-.preloader .anim {
+/* .preloader .anim {
     color: #FFF;
     font-size: 60px;
     position: absolute;
@@ -203,7 +203,7 @@ a:not([href]):not([tabindex]) {
 .slide-right {
     transform: translate3d(100%, 0, 0);
     will-change: transform;
-}
+} */
 
 @-webkit-keyframes pulse {
     0% {
@@ -344,7 +344,7 @@ h2.menu-item {
 }
 
 .dark h2.menu-item {
-    color: rgb(250, 229, 223);
+    color: rgb(21, 23, 26);
 }
 /* 
 h2.menu-item:before {
