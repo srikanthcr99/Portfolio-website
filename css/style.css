@@ -771,10 +771,10 @@ h2.menu-item:after {
     border-radius: 50%;
 }
 
-/* .social a:hover {
+.social a:hover {
     opacity: 0.6;
-    color: #fff;
-} */
+    color: #333;
+}
 
 
 /* ABOUT BLOCK*/
