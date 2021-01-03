@@ -344,7 +344,7 @@ h2.menu-item {
 }
 
 .dark h2.menu-item {
-    color: rgb(21, 23, 26);
+    color: rgb(8, 8, 8);
 }
 /* 
 h2.menu-item:before {
@@ -397,7 +397,8 @@ h2.menu-item:after {
 } */
 
 .menu-block:hover {
-    background:#e0d4e9;
+    transition: 0.2s;
+    background-image: linear-gradient(to left bottom, #333333, #535256, #77727b, #9d94a2, #c7b7c9);
 }
 
 /* --- Inline Menu --- */
@@ -707,11 +708,10 @@ h2.menu-item:after {
 
 .name-block-container h1,
 .name-block-container h2 {
-    text-transform: capitalize;
     font-weight: 600;
     color: #FFF;
     margin-bottom: 10px;
-    text-transform: uppercase;
+    text-transform: capitalize;
 }
 
 .dark .name-block-container h1,
@@ -771,11 +771,6 @@ h2.menu-item:after {
     border-radius: 50%;
 }
 
-.social a:hover {
-    opacity: 0.8;
-    color: #333;
-}
-
 
 /* ABOUT BLOCK*/
 
@@ -795,7 +790,7 @@ h2.menu-item:after {
 }
 
 .about-block:hover {
-    border: 1px solid rgba(255, 255, 255, 0.1);
+    border: 1px solid rgba(255, 255, 255, 0.2);
 }
 
 .about-block-container {
@@ -1482,9 +1477,7 @@ PORTFOLIO BLOCK*/
     .col-md-5 .offset-md-1 {
         margin-left: 2rem;
     }
-    #close .menu-item {
-        display: contents;
-    }
+
   
 }
 
@@ -1494,6 +1487,7 @@ PORTFOLIO BLOCK*/
     }
     #close .showx .fa-times{
         display: contents;
+        padding-top: 2rem;
     }
     .timeline:before,
     .timeline:after,
@@ -1629,12 +1623,13 @@ PORTFOLIO BLOCK*/
     .contact-block {
         border-bottom: none;
     }
+
     .about-block:hover,
     .portfolio-block:hover,
     .work-block:hover,
     .contact-block:hover {
         border: none;
-        border-bottom: 1px solid rgb(190, 211, 250);
+        border-bottom: 1px solid rgba(173, 214, 219, 0.767);
     }
     .name-block-container,
     .about-block-container,
@@ -1668,9 +1663,7 @@ PORTFOLIO BLOCK*/
     .menu-block:hover h2.menu-item:after {
         top: 15px;
         left: -20px;
-    }
-    .menu-block:hover {
-        background: rgba(0, 0, 0, 0);
+        
     }
     .social {
         position: relative;
