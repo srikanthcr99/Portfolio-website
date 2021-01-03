@@ -1779,7 +1779,7 @@ PORTFOLIO BLOCK*/
     }
     
     #close .fa-times{
-        display: none;
+        display: contents;
     }
     .project {
         width: 100%;
